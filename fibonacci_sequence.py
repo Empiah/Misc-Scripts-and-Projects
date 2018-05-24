@@ -15,7 +15,7 @@ def fibo (n):
 
 while True:
     try:
-        input_n = float(input('This script will return the nth number in the fibnacci sequence when given n, please enter n\n'))
+        input_n = int(input('This script will return the nth number in the fibnacci sequence when given n, please enter n: \n'))
     except ValueError:
         print('Sadly not understood, enter a number.')
     else:
